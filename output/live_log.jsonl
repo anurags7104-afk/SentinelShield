@@ -1,0 +1,2 @@
+{"timestamp": "2026-11-06T09:16:37.019+00:00", "ip": "127.0.0.1", "method": "GET", "url": "/products?id=42", "action": "ALLOW", "status": 200, "score": 0, "categories": [], "rules": [], "reason": "clean request"}
+{"timestamp": "2026-11-06T09:16:37.050+00:00", "ip": "127.0.0.1", "method": "GET", "url": "/products?id=1%27%20OR%20%271%27%3D%271", "action": "BLOCK", "status": 403, "score": 5, "categories": ["sqli"], "rules": ["SQLI-002"], "reason": "signature match, blocked"}

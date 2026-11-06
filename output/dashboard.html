@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>SentinelShield Dashboard</title><style>
+:root{--bg:#F2F4F6;--surface:#fff;--surface2:#E8ECF0;--border:#D3D9E0;--ink:#16202A;--dim:#5A6775;--accent:#1B6A8F;
+--bad:#B3342B;--bad-s:#F5DEDB;--warn:#A66A12;--warn-s:#F4E7D0;--good:#2E7D5B;--good-s:#DCEEE5;--mono:ui-monospace,'Cascadia Mono',Consolas,monospace;--sans:system-ui,'Segoe UI',Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10171D;--surface:#18222B;--surface2:#212D38;--border:#2F3E4B;--ink:#E8EEF3;--dim:#93A3B1;--accent:#6DB3E0;--bad:#EE8579;--bad-s:#3C2522;--warn:#E3B060;--warn-s:#38301B;--good:#6FC79C;--good-s:#1D3328;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10171D;--surface:#18222B;--surface2:#212D38;--border:#2F3E4B;--ink:#E8EEF3;--dim:#93A3B1;--accent:#6DB3E0;--bad:#EE8579;--bad-s:#3C2522;--warn:#E3B060;--warn-s:#38301B;--good:#6FC79C;--good-s:#1D3328;color-scheme:dark}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);margin:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1080px;margin:0 auto;padding-block:32px 56px;display:flex;flex-direction:column;gap:26px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;border-bottom:1px solid var(--border);padding-bottom:18px}
+h1{font-size:28px;margin:0 0 6px;text-wrap:balance}
+header p{margin:0;color:var(--dim);font-size:14px;max-width:62ch}
+.tag{font:12px var(--mono);background:var(--surface2);border:1px solid var(--border);color:var(--dim);padding:6px 10px;border-radius:5px}
+.rail{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.stat{background:var(--surface);padding:16px;min-width:0}
+.stat .l{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--dim);margin-bottom:6px}
+.stat .v{font-size:28px;font-weight:600;font-variant-numeric:tabular-nums}
+.stat .s{font-size:12px;color:var(--dim);margin-top:2px}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.09em;color:var(--dim);margin:0 0 12px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}.two>*{min-width:0}
+.panel{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:18px}
+.row{display:grid;grid-template-columns:96px 1fr 48px;gap:10px;align-items:center;margin-bottom:9px;font-size:13px}
+.row .n{font-family:var(--mono);text-align:right}
+.track{background:var(--surface2);border-radius:3px;height:12px;overflow:hidden}
+.fill{height:100%;background:var(--accent)}
+.fill.bad{background:var(--bad)}.fill.warn{background:var(--warn)}.fill.good{background:var(--good)}
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--dim);background:var(--surface2);font-weight:600;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.m{font-family:var(--mono);font-size:12px;word-break:break-all}
+.pill{font-size:11px;font-weight:600;padding:3px 9px;border-radius:99px;white-space:nowrap}
+.pill.BLOCK,.pill.BLOCK_IP{background:var(--bad-s);color:var(--bad)}.pill.RATE_LIMIT{background:var(--warn-s);color:var(--warn)}
+.pill.SUSPICIOUS{background:var(--warn-s);color:var(--warn)}.pill.ALLOW{background:var(--good-s);color:var(--good)}
+.note{font-size:12px;color:var(--dim);margin:12px 0 0;line-height:1.5}
+footer{border-top:1px solid var(--border);padding-top:14px;font-size:12px;color:var(--dim);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+@media(max-width:760px){.rail{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}}
+</style></head><body>
+<div class="wrap">
+<header><div><h1>SentinelShield Dashboard</h1><p>Results of a labeled test run: normal traffic, web attacks, a brute-force burst and a repeat attacker, all inspected by the rule engine and the rate limiter. IPs are from reserved documentation ranges.</p></div><span class="tag">Python · rule-based · Anurag Singh</span></header>
+<div class="rail">
+<div class="stat"><div class="l">Requests</div><div class="v">70</div><div class="s">42 source IPs</div></div>
+<div class="stat"><div class="l">Flagged</div><div class="v" style="color:var(--bad)">46</div><div class="s">44 blocked</div></div>
+<div class="stat"><div class="l">Accuracy</div><div class="v">94.3%</div><div class="s">66 of 70 correct</div></div>
+<div class="stat"><div class="l">False positives</div><div class="v">2</div><div class="s">benign flagged</div></div>
+<div class="stat"><div class="l">False negatives</div><div class="v">2</div><div class="s">attacks missed</div></div>
+</div>
+<div class="two">
+<section class="panel"><h2>What happened to each request</h2><div class='row'><span>BLOCK</span><div class='track'><div class='fill ' style='width:100%'></div></div><span class='n'>27</span></div><div class='row'><span>ALLOW</span><div class='track'><div class='fill ' style='width:89%'></div></div><span class='n'>24</span></div><div class='row'><span>BLOCK_IP</span><div class='track'><div class='fill ' style='width:44%'></div></div><span class='n'>12</span></div><div class='row'><span>RATE_LIMIT</span><div class='track'><div class='fill ' style='width:19%'></div></div><span class='n'>5</span></div><div class='row'><span>SUSPICIOUS</span><div class='track'><div class='fill ' style='width:7%'></div></div><span class='n'>2</span></div><p class="note">ALLOW passes, SUSPICIOUS passes but is logged, BLOCK and BLOCK_IP return 403, RATE_LIMIT returns 429.</p></section>
+<section class="panel"><h2>Flagged requests by attack category</h2><div class='row'><span>banned_ip</span><div class='track'><div class='fill bad' style='width:100%'></div></div><span class='n'>12</span></div><div class='row'><span>sqli</span><div class='track'><div class='fill bad' style='width:75%'></div></div><span class='n'>9</span></div><div class='row'><span>lfi</span><div class='track'><div class='fill bad' style='width:67%'></div></div><span class='n'>8</span></div><div class='row'><span>xss</span><div class='track'><div class='fill bad' style='width:58%'></div></div><span class='n'>7</span></div><div class='row'><span>rate_limit</span><div class='track'><div class='fill bad' style='width:42%'></div></div><span class='n'>5</span></div><div class='row'><span>traversal</span><div class='track'><div class='fill bad' style='width:33%'></div></div><span class='n'>4</span></div><div class='row'><span>cmdi</span><div class='track'><div class='fill bad' style='width:33%'></div></div><span class='n'>4</span></div><div class='row'><span>scanner</span><div class='track'><div class='fill bad' style='width:17%'></div></div><span class='n'>2</span></div></section>
+</div>
+<div class="two">
+<section class="panel"><h2>Attacks detected per category</h2><div class='row'><span>bruteforce</span><div class='track'><div class='fill good' style='width:100%'></div></div><span class='n'>15</span></div><div class='row'><span>cmdi</span><div class='track'><div class='fill good' style='width:33%'></div></div><span class='n'>5</span></div><div class='row'><span>lfi</span><div class='track'><div class='fill good' style='width:27%'></div></div><span class='n'>4</span></div><div class='row'><span>scanner</span><div class='track'><div class='fill good' style='width:13%'></div></div><span class='n'>2</span></div><div class='row'><span>sqli</span><div class='track'><div class='fill good' style='width:53%'></div></div><span class='n'>8</span></div><div class='row'><span>traversal</span><div class='track'><div class='fill good' style='width:27%'></div></div><span class='n'>4</span></div><div class='row'><span>xss</span><div class='track'><div class='fill good' style='width:40%'></div></div><span class='n'>6</span></div><p class="note">Sent per category: bruteforce 15, cmdi 5, lfi 4, scanner 2, sqli 9, traversal 4, xss 7.</p></section>
+<section class="panel"><h2>Repeatedly flagged IPs</h2><div class="tw"><table><tr><th>IP</th><th>Flagged</th><th>Actions</th></tr><tr><td class='m'>203.0.113.250</td><td>15</td><td>RATE_LIMIT 5, BLOCK_IP 10</td></tr><tr><td class='m'>203.0.113.99</td><td>5</td><td>BLOCK 3, BLOCK_IP 2</td></tr></table></div><p class="note">An IP is banned for 300 seconds after 3 blocked attacks or 5 rate-limit violations.</p></section>
+</div>
+<section><h2>Recent flagged requests</h2><div class="panel" style="padding:0"><div class="tw"><table><tr><th>Time (UTC)</th><th>IP</th><th>Request</th><th>Action</th><th>Category</th></tr><tr><td class='m'>10:00:25</td><td class='m'>198.51.100.13</td><td class='m'>GET /search?q=trade+union+select+committee+elections</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>sqli</td></tr><tr><td class='m'>10:00:27</td><td class='m'>198.51.100.14</td><td class='m'>POST /comment</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>xss</td></tr><tr><td class='m'>10:00:32</td><td class='m'>203.0.113.1</td><td class='m'>GET /products?id=1&#x27; OR &#x27;1&#x27;=&#x27;1</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>sqli</td></tr><tr><td class='m'>10:00:34</td><td class='m'>203.0.113.2</td><td class='m'>GET /products?id=1 UNION SELECT username,password FROM users--</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>sqli</td></tr><tr><td class='m'>10:00:36</td><td class='m'>203.0.113.3</td><td class='m'>POST /login</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>sqli</td></tr><tr><td class='m'>10:00:38</td><td class='m'>203.0.113.4</td><td class='m'>GET /products?id=1;DROP TABLE users</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>sqli</td></tr><tr><td class='m'>10:00:40</td><td class='m'>203.0.113.5</td><td class='m'>GET /products?id=1%20AND%20SLEEP(5)</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>sqli</td></tr><tr><td class='m'>10:00:42</td><td class='m'>203.0.113.6</td><td class='m'>GET /products?id=1%2527%2520OR%2520%25271%2527%253D%25271</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>sqli</td></tr><tr><td class='m'>10:00:44</td><td class='m'>203.0.113.7</td><td class='m'>GET /search?q=1 UNION/**/SELECT/**/null,null</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>sqli</td></tr><tr><td class='m'>10:00:46</td><td class='m'>203.0.113.8</td><td class='m'>GET /search?q=&lt;script&gt;alert(1)&lt;/script&gt;</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>xss</td></tr><tr><td class='m'>10:00:48</td><td class='m'>203.0.113.9</td><td class='m'>POST /comment</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>xss</td></tr><tr><td class='m'>10:00:50</td><td class='m'>203.0.113.10</td><td class='m'>GET /redirect?url=javascript:alert(document.cookie)</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>xss</td></tr><tr><td class='m'>10:00:52</td><td class='m'>203.0.113.11</td><td class='m'>GET /search?q=%3Cscript%3Ealert(1)%3C/script%3E</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>xss</td></tr><tr><td class='m'>10:00:54</td><td class='m'>203.0.113.12</td><td class='m'>GET /index.html</td><td><span class='pill BLOCK'>BLOCK</span></td><td class='m'>xss</td></tr></table></div></div></section>
+<div class="two">
+<section class="panel"><h2>False positives</h2><ul class="note" style="margin:0;padding-left:18px"><li>B13: GET /search?q=trade+union+select+committee+elections</li><li>B14: POST /comment</li></ul></section>
+<section class="panel"><h2>False negatives</h2><ul class="note" style="margin:0;padding-left:18px"><li>M25: GET /search?q=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==</li><li>M26: GET /products?id=1 AND ASCII(SUBSTRING(@@version,1,1))&gt;50</li></ul></section>
+</div>
+<footer><span>Dashboard shows output of a simulated test run, not live traffic.</span><span>Run it yourself: <span style="font-family:var(--mono)">python main.py demo</span></span></footer>
+</div></body></html>

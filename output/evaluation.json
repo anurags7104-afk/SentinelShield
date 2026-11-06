@@ -1,0 +1,153 @@
+{
+  "summary": {
+    "total_requests": 70,
+    "by_action": {
+      "ALLOW": 24,
+      "BLOCK": 27,
+      "SUSPICIOUS": 2,
+      "RATE_LIMIT": 5,
+      "BLOCK_IP": 12
+    },
+    "malicious_detected": 46,
+    "blocked": 44,
+    "by_category": {
+      "banned_ip": 12,
+      "sqli": 9,
+      "lfi": 8,
+      "xss": 7,
+      "rate_limit": 5,
+      "traversal": 4,
+      "cmdi": 4,
+      "scanner": 2
+    },
+    "repeat_ips": [
+      {
+        "ip": "203.0.113.250",
+        "flagged": 15,
+        "actions": {
+          "RATE_LIMIT": 5,
+          "BLOCK_IP": 10
+        }
+      },
+      {
+        "ip": "203.0.113.99",
+        "flagged": 5,
+        "actions": {
+          "BLOCK": 3,
+          "BLOCK_IP": 2
+        }
+      }
+    ],
+    "ban_events": [
+      {
+        "ip": "203.0.113.250",
+        "reason": "rate",
+        "strikes": 5,
+        "banned_at": 1793440922.8,
+        "banned_until": 1793441222.8
+      },
+      {
+        "ip": "203.0.113.99",
+        "reason": "attack",
+        "strikes": 3,
+        "banned_at": 1793440952.0,
+        "banned_until": 1793441252.0
+      }
+    ],
+    "unique_ips": 42
+  },
+  "evaluation": {
+    "total": 70,
+    "tp": 44,
+    "fp": 2,
+    "tn": 22,
+    "fn": 2,
+    "accuracy": 94.3,
+    "precision": 95.7,
+    "recall": 95.7,
+    "false_positives": [
+      {
+        "id": "B13",
+        "label": "benign",
+        "category": "normal",
+        "action": "BLOCK",
+        "method": "GET",
+        "url": "/search?q=trade+union+select+committee+elections",
+        "note": "legitimate text that contains the words 'union select'",
+        "score": 5,
+        "rules": [
+          "SQLI-001"
+        ]
+      },
+      {
+        "id": "B14",
+        "label": "benign",
+        "category": "normal",
+        "action": "BLOCK",
+        "method": "POST",
+        "url": "/comment",
+        "note": "legitimate text that mentions a script tag",
+        "score": 5,
+        "rules": [
+          "XSS-001"
+        ]
+      }
+    ],
+    "false_negatives": [
+      {
+        "id": "M25",
+        "label": "malicious",
+        "category": "xss",
+        "action": "ALLOW",
+        "method": "GET",
+        "url": "/search?q=PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==",
+        "note": "base64 of a script tag",
+        "score": 0,
+        "rules": []
+      },
+      {
+        "id": "M26",
+        "label": "malicious",
+        "category": "sqli",
+        "action": "ALLOW",
+        "method": "GET",
+        "url": "/products?id=1 AND ASCII(SUBSTRING(@@version,1,1))>50",
+        "note": "blind SQL injection with no tautology",
+        "score": 0,
+        "rules": []
+      }
+    ],
+    "per_category": {
+      "bruteforce": {
+        "total": 15,
+        "detected": 15
+      },
+      "cmdi": {
+        "total": 5,
+        "detected": 5
+      },
+      "lfi": {
+        "total": 4,
+        "detected": 4
+      },
+      "scanner": {
+        "total": 2,
+        "detected": 2
+      },
+      "sqli": {
+        "total": 9,
+        "detected": 8
+      },
+      "traversal": {
+        "total": 4,
+        "detected": 4
+      },
+      "xss": {
+        "total": 7,
+        "detected": 6
+      }
+    },
+    "malicious_total": 46,
+    "benign_total": 24
+  }
+}
